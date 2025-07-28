@@ -9,14 +9,6 @@
 This is the JQuery UI extension for [Yii framework 2.0](https://www.yiiframework.com). It encapsulates [JQuery UI widgets](https://jqueryui.com/) as Yii widgets,
 and makes using JQuery UI widgets in Yii applications extremely easy.
 
-For license information check the [LICENSE](LICENSE.md)-file.
-
-Documentation is at [docs/guide/README.md](docs/guide/README.md).
-
-[![Latest Stable Version](https://poser.pugx.org/yiisoft/yii2-jui/v/stable.png)](https://packagist.org/packages/yiisoft/yii2-jui)
-[![Total Downloads](https://poser.pugx.org/yiisoft/yii2-jui/downloads.png)](https://packagist.org/packages/yiisoft/yii2-jui)
-[![Build Status](https://github.com/yiisoft/yii2-jui/workflows/build/badge.svg)](https://github.com/yiisoft/yii2-jui/actions)
-
 Installation
 ------------
 
@@ -25,13 +17,13 @@ The preferred way to install this extension is through [composer](https://getcom
 Either run
 
 ```
-php composer.phar require --prefer-dist yiisoft/yii2-jui
+php composer.phar require --prefer-dist skker/yii2-jui
 ```
 
 or add
 
 ```
-"yiisoft/yii2-jui": "~2.0.0"
+"skker/yii2-jui": "~2.0.0"
 ```
 
 to the require section of your `composer.json` file.
