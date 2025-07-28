@@ -5,7 +5,7 @@
  * @license https://www.yiiframework.com/license/
  */
 
-namespace yii\jui;
+namespace skker\jui;
 
 use yii\web\AssetBundle;
 
@@ -18,18 +18,20 @@ class JuiAsset extends AssetBundle
     /**
      * {@inheritdoc}
      */
-    public $sourcePath = '@bower/jquery-ui';
+    // public $sourcePath = '@bower/jquery-ui';
     /**
      * {@inheritdoc}
      */
     public $js = [
-        'jquery-ui.js',
+        // 'jquery-ui.js',
+        'https://code.jquery.com/ui/1.14.1/jquery-ui.js',
     ];
     /**
      * {@inheritdoc}
      */
     public $css = [
-        'themes/smoothness/jquery-ui.css',
+        // 'themes/smoothness/jquery-ui.css',
+        'https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css',
     ];
     /**
      * {@inheritdoc}

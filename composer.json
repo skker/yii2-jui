@@ -1,7 +1,10 @@
 {
     "name": "skker/yii2-jui",
     "description": "The Jquery UI extension for the Yii framework",
-    "keywords": ["yii2", "Jquery UI"],
+    "keywords": [
+        "yii2",
+        "Jquery UI"
+    ],
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "support": {
@@ -30,8 +33,7 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "~2.0.4",
-        "bower-asset/jquery-ui": ">=1.13"
+        "yiisoft/yii2": "~2.0.4"
     },
     "require-dev": {
         "cweagans/composer-patches": "^1.7",
@@ -45,7 +47,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "yii\\jui\\": "src"
+            "skker\\jui\\": "src"
         }
     },
     "extra": {

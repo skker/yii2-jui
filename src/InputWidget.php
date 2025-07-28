@@ -5,7 +5,7 @@
  * @license https://www.yiiframework.com/license/
  */
 
-namespace yii\jui;
+namespace skker\jui;
 
 use yii\base\Model;
 use yii\helpers\Html;
